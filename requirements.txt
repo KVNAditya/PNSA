@@ -1,0 +1,6 @@
+gnewsclient
+langchain
+translators
+streamlit
+newspaper3k
+python-Levenshtein
