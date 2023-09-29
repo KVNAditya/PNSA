@@ -1,0 +1,25 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "${.env:PATH};C:/Windows/System32;%SystemRoot%/System32/Wbem;D:/Git/024000/bin;D:/conda/Anaconda/envs/cmrtc__surge_classes__dsaiml/Scripts"
+    },
+    "terminal.integrated.profiles.windows": {
+        "ps1_py_sc": {
+            "overrideName" : true,
+            "source": "PowerShell",
+            "args": [
+                "-ExecutionPolicy",
+                "ByPass",
+                "-NoExit",
+                "-Command",
+                "& D:/conda/Anaconda/shell/condabin/conda-hook.ps1"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "ps1_py_sc",
+
+    "python.defaultInterpreterPath": "D:/conda/Anaconda/envs/cmrtc__surge_classes__dsaiml/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "cSpell.words": [
+        "unsquueze"
+    ]
+}
