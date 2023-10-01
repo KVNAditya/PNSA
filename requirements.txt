@@ -5,5 +5,12 @@ streamlit
 newspaper3k
 python-Levenshtein
 nltk
+pyppeteer
+googletrans
+langchain
+gnewsclient
+nltk
+newspaper3k
 googletrans==4.0.0-rc1
 pyshorteners
+gTTS
