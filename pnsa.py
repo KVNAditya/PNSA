@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 import gnewsclient.gnewsclient as gnewsclient
-import nltk
+# import nltk
 import tempfile
 import os
 
