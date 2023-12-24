@@ -9,7 +9,7 @@ from googletrans import Translator
 from gtts import gTTS
 from langchain.document_loaders import NewsURLLoader
 
-nltk.download('punkt')
+# nltk.download('punkt')
 
 def func__init__gnc_lc_ts(args__mtch_btn):
     op_log = st.empty()
